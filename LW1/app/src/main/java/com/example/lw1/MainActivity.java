@@ -1,6 +1,8 @@
 package com.example.lw1;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.content.Context;
@@ -23,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
             super(context);
             paint = new Paint();
             rect = new Rect();
+        }
+
+        @Override
+        protected void onDraw(Canvas canvas) {
+            canvas.drawARGB(80, 102, 104, 255);
         }
     }
 }
