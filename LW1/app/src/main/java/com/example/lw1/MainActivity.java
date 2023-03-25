@@ -82,14 +82,38 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onDraw(Canvas canvas) {
             paint.setColor(Color.RED);
-            paint.setStrokeWidth(10);
-            paint.setAlpha(128);
+//  Task 3
+//            paint.setAlpha(128);
+//            DisplayMetrics metrics = new DisplayMetrics();
+//            getWindowManager().getDefaultDisplay().getMetrics(metrics);
+//
+//            float height = metrics.heightPixels * 0.95f;
+//            float width = metrics.widthPixels;
+//            canvas.drawOval(0.0f, 0.0f, width, height, this.paint);
+
+
             DisplayMetrics metrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
             float height = metrics.heightPixels * 0.95f;
             float width = metrics.widthPixels;
-            canvas.drawOval(0.0f, 0.0f, width, height, this.paint);
+            paint.setColor(Color.BLUE);
+            canvas.drawRect(0, 0, width, height/2, paint);
+            paint.setColor(Color.GREEN);
+            canvas.drawRect(0, height / 2, width, height, paint);
+            paint.setColor(Color.BLACK);
+            paint.setStrokeWidth(10);
+            canvas.drawLines(new float[]{0f, height, width/2, height/2}, paint);
+            canvas.drawLines(new float[]{0f + 50f, height, width/2 + 50, height/2}, paint);
+            float currentX = 10;
+            float currentY = height;
+            float endY = height/2;
+            float step = 40;
+            while (currentY > endY) {
+                canvas.drawLines(new float[]{currentX - 20, currentY, currentX + 70, currentY - 30}, paint);
+                currentY -= step;
+                currentX += step / 2;
+            }
         }
     }
 }
