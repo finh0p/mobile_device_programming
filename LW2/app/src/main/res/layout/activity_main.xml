@@ -9,10 +9,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_relativeBottom_toBottomOf="parent"
-        app:layout_relativeEnd_toEndOf="parent"
-        app:layout_relativeStart_toStartOf="parent"
-        app:layout_relativeTop_toTopOf="parent" />
+        android:text="Hello World!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/rectangle"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:src="@drawable/rectangle"/>
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:src="@drawable/circle"/>
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:src="@drawable/rectangle"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>
+
+
+
+
