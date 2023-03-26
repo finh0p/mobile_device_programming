@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Кнопка 1"
+            android:onClick="onButtonClick1"
+            android:id="@+id/b1"/>
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Кнопка 2"
+            android:onClick="onButtonClick2"
+            android:id="@+id/b2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text="Кнопка 3"
+                android:onClick="onButtonClick2"
+                android:id="@+id/b3" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text="Кнопка 4"
+                android:onClick="onButtonClick2"
+                android:id="@+id/b4"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text="Кнопка 5"
+                android:onClick="onButtonClick2"
+                android:id="@+id/b5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text="Кнопка Q1"
+                android:onClick="qButton"
+                android:id="@+id/bq1"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:text="Кнопка Q2"
+                android:onClick="qButton"
+                android:id="@+id/bq2"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
