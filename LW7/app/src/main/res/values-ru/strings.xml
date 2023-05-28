@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LW7_IndTask</string>
+    <string name="registration">Регистрация</string>
+    <string name="login">Логин:</string>
+    <string name="enterLogin">Введите логин</string>
+    <string name="password">Пароль:</string>
+    <string name="enterPassword">Введите пароль</string>
+    <string name="passwordRepetition">Повтор пароля:</string>
+    <string name="name">Имя:</string>
+    <string name="enterName">Введите имя</string>
+    <string name="surname">Фамилия:</string>
+    <string name="enterSurname">Введите фамилию</string>
+    <string name="patronymic">Отчество:</string>
+    <string name="enterPatronymic">Введите отчество</string>
+    <string name="email">E-mail:</string>
+    <string name="enterEmail">Введите e-mail</string>
+    <string name="phone">Номер телефона:</string>
+    <string name="enterPhone">Введите номер телефона</string>
+    <string name="dateOfBirth">Дата рождения:</string>
+    <string name="dateOfBirthHint">01.01.2023</string>
+    <string name="curator">Куратор:</string>
+    <string name="personalData">Даю согласие на обработку персональных данных</string>
+    <string name="register">Зарегистрироваться</string>
+    <string-array name="teachersList">
+        <item>Маслова О.И.</item>
+        <item>Николаев Е.И.</item>
+        <item>Альбекова З.М.</item>
+        <item>Крахоткина Е.В.</item>
+        <item>Чеканов В.С.</item>
+    </string-array>
+    <string name="registerIsSuccess">Вы успешно зарегистрировались!</string>
+</resources>

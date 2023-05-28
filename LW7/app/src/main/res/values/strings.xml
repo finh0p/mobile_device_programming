@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LW7_IndTask</string>
+    <string name="registration">Registration</string>
+    <string name="login">Login:</string>
+    <string name="enterLogin">Enter Login</string>
+    <string name="password">Password:</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="passwordRepetition">Password Repetition</string>
+    <string name="name">Name:</string>
+    <string name="enterName">Enter name</string>
+    <string name="surname">Surname:</string>
+    <string name="enterSurname">Enter surname</string>
+    <string name="patronymic">Patronymic:</string>
+    <string name="enterPatronymic">Enter Patronymic</string>
+    <string name="email">E-mail:</string>
+    <string name="enterEmail">Enter e-mail</string>
+    <string name="phone">Phone:</string>
+    <string name="enterPhone">Enter phone</string>
+    <string name="dateOfBirth">Date of birth</string>
+    <string name="dateOfBirthHint">01.01.2023</string>
+    <string name="curator">Curator:</string>
+    <string name="personalData">I consent to the processing of personal data</string>
+    <string name="register">Register</string>
+    <string-array name="teachersList">
+        <item>Maslova O.I.</item>
+        <item>Nikolaev E.I.</item>
+        <item>Albekova Z.M.</item>
+        <item>Krakhotkina E.V.</item>
+        <item>Chekanov V.S.</item>
+    </string-array>
+    <string name="registerIsSuccess">Register is success!</string>
+</resources>

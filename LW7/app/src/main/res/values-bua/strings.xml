@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LW7_IndTask</string>
+    <string name="registration">Регистрацилга</string>
+    <string name="login">Логин:</string>
+    <string name="enterLogin">Логин тогтоохо</string>
+    <string name="password">Пароль:</string>
+    <string name="enterPassword">Пароль тогтоохо</string>
+    <string name="passwordRepetition">Пароль дабтаха:</string>
+    <string name="name">Нэрэ:</string>
+    <string name="enterName">Нэрэ тогтоохо</string>
+    <string name="surname">Фамилитнай:</string>
+    <string name="enterSurname">Фамилитнай тогтоохо</string>
+    <string name="patronymic">Обог:</string>
+    <string name="enterPatronymic">Обог тогтоохо</string>
+    <string name="email">E-mail:</string>
+    <string name="enterEmail">E-mail тогтоохо</string>
+    <string name="phone">Телефон номер:</string>
+    <string name="enterPhone">Телефон номер тогтоохо</string>
+    <string name="dateOfBirth">Түрэhэн үдэр</string>
+    <string name="dateOfBirthHint">01.01.2023</string>
+    <string name="curator">Куратор:</string>
+    <string name="personalData">Даю зүбшөөлгэ дээрэ болбосоруулга персональна мэдээнүүд</string>
+    <string name="register">Регистрацида орохо</string>
+    <string-array name="teachersList">
+        <item>Маслова О.И.</item>
+        <item>Николаев Е.И.</item>
+        <item>Альбекова З.М.</item>
+        <item>Крахоткина Е.В.</item>
+        <item>Чеканов В.С.</item>
+    </string-array>
+    <string name="registerIsSuccess">Вы амжалтатай регистрацида орохо!</string>
+</resources>
